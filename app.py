@@ -12,7 +12,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="zenith-header"><h2>🏦 Zenith Bank - Transfer Demo</h2><p>by FUCK YOU | BCU Project</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="zenith-header"><h2>🏦 Zenith Bank - Transfer Demo</h2><p>by NWAEDOZIE TOOCHUKWU | BCU Project</p></div>', unsafe_allow_html=True)
 
 st.write("")
 
