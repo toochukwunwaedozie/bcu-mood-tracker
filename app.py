@@ -18,7 +18,7 @@ st.write("")
 
 # --- SESSION STATE FOR BALANCE ---
 if 'balance' not in st.session_state:
-    st.session_state.balance = 250000.75
+    st.session_state.balance = 2500000.75
 if 'transactions' not in st.session_state:
     st.session_state.transactions = []
 
@@ -31,7 +31,7 @@ st.subheader("💸 Make a Transfer")
 with st.form("transfer_form"):
     col1, col2 = st.columns(2)
     with col1:
-        bank = st.selectbox("Select Bank", ["Zenith Bank", "GTB", "Access Bank", "First Bank", "UBA", "OPay", "Moniepoint", "Kuda"])
+        bank = st.selectbox("Select Bank", ["Zenith Bank", "GTB", "NTP FARMS", "Access Bank", "First Bank", "UBA", "OPay", "Moniepoint", "Kuda"])
     with col2:
         account_type = st.selectbox("Transfer Type", ["Zenith to Zenith", "To Other Banks"])
 
