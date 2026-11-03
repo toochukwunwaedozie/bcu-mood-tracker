@@ -18,7 +18,7 @@ st.write("")
 
 # --- SESSION STATE FOR BALANCE ---
 if 'balance' not in st.session_state:
-    st.session_state.balance = 2500000.75
+    st.session_state.balance = 250000.00
 if 'transactions' not in st.session_state:
     st.session_state.transactions = []
 
